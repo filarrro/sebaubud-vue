@@ -1,0 +1,66 @@
+.header {
+  position: relative;
+
+  display: flex;
+  height: 500px;
+
+  justify-content: center;
+  align-items: center;
+
+  background: url("../assets/header-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header__logo {
+  position: absolute;
+  left: 3rem;
+  top: 3rem;
+}
+
+.header__content {
+  padding-right: 10%;
+  color: #ffffff;
+}
+
+.header__caption {
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+}
+.header__h1 {
+  font-size: 10rem;
+  font-weight: 700;
+  line-height: 13rem;
+  margin: 0;
+}
+.header__h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin: 0;
+}
+.header__h2--right {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: right;
+}
+
+.header_contact {
+  display: flex;
+  margin: 1.5rem;
+
+  align-items: center;
+
+  color: #ffffff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.header__contact--icon {
+  margin-right: 10px;
+}

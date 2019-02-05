@@ -1,0 +1,39 @@
+.nav {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  height: 90px;
+  margin-bottom: -30px;
+
+  justify-content: center;
+
+  background: #ffffff;
+  border-radius: 0% 0% 35% 35% / 0% 0% 30% 30%;
+  overflow: visible;
+}
+
+.nav__links {
+  margin: 1rem;
+}
+.nav__links a {
+  text-decoration: none;
+}
+
+.nav__logo {
+  margin: auto;
+}
+
+.nav__menu {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+
+  height: 48px;
+  width: 48px;
+
+  background: #ffffff;
+  border: none;
+  border-radius: 65% 35% 71% 29% / 29% 62% 38% 71%;
+  box-shadow: none;
+}

@@ -1,0 +1,43 @@
+.offer {
+  padding: 5rem 2rem 2rem;
+
+  background-color: #e4f0fb;
+}
+
+.offer__list {
+  display: flex;
+  padding: 0;
+  margin: 4rem 2rem;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.offer__box {
+  display: block;
+  width: 250px;
+}
+
+.offer__icon {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  margin: 2rem auto;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #344A65;
+  border-radius: 72% 28% 56% 44% / 27% 65% 35% 73%;
+  color: #fff;
+}
+
+.offer__title {
+  margin-top: 2rem;
+
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+}

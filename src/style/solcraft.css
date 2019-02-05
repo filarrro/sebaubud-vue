@@ -1,0 +1,37 @@
+.solcraft {
+  padding: 6rem 2rem 4rem;
+
+  background-color: #344A65;
+  color: #ffffff;
+}
+
+.solcraft h2 {
+  margin-bottom: 3.5rem;
+}
+
+.solcraft p {
+  font-size: 1.8rem;
+}
+
+.solcraft a {
+  color: #e4f0fb;
+}
+
+.solcraft__columns {
+  display: flex;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+
+.solcraft__columns > img {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  min-width: 260px;
+
+  border-radius: 65% 35% 71% 29% / 29% 62% 38% 71%;
+}
+
+.solcraft__columns > p {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,35 @@
+.rights {
+  display: flex;
+  padding: 1.8rem 3rem;
+
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #212121;
+  color: #e4f0fb;
+}
+
+.rights__text {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.rights svg {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.rights a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #ffffff;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
