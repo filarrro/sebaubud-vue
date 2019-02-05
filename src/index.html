@@ -3,15 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="referrer" content="no-referrer">
 
   <title>Sebaybud - firma remontowo budowlana</title>
 
+  <meta name="description"
+        content="Firma Sebaybud zajmuje się kompleksowymi pracami związanymi z odnawianiem istniejących budynków i pomieszczeń, a także budowaniem ich od podstaw.">
+  <meta name="subject" content="Prezentacja oferty firmy remontowo - budowlanej Sebaybud">
+  <meta name="theme-color" content="#344A65">
+
+  <!-- Control the behavior of search engine crawling and indexing -->
+  <meta name="robots" content="index,follow"><!-- All Search Engines -->
+  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+  <link rel="shortcut icon" type="image/ico" href=./favicon.ico >
+  <!-- Icon in the highest resolution we need it for -->
+  <link rel="icon" sizes="192x192" href="./assets/icon.png">
+  <!-- Apple Touch Icon (reuse 192px icon.png) -->
+  <link rel="apple-touch-icon" href="./assets/icon.png">
+
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-
 </head>
 <body>
-
 
 <figure>
   <div class="ripple"></div>
@@ -20,7 +35,7 @@
 
   <div class="logo-bg"></div>
 
-  <img src="./assets/logo.png" width="200" height="249" />
+  <img src="./assets/logo.png" width="200" height="249"/>
 </figure>
 
 <h1>Strona w przebudowie, przepraszamy</h1>
@@ -29,34 +44,89 @@
 </p>
 
 <a href="tel:+48886638968">
-  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/>
+  </svg>
   <span>+48 886 638 968</span>
 </a>
 
 <a href="mailto:sebaybud@gmail.com">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+    <path
+        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+  </svg>
   <span>sebaybud@gmail.com</span>
 </a>
 
 <script defer>
-  (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
-    h=encodeURIComponent,i=d.pushState,k=function(){return Math.random().toString(36)},
-    l=function(){return g.cid||(g.cid=k()),g.cid},m=function(r){var s=[];for(var t in r)
-      r.hasOwnProperty(t)&&void 0!==r[t]&&s.push(h(t)+"="+h(r[t]));return s.join("&")},
-    n=function(r,s,t,u,v,w,x){var z="https://www.google-analytics.com/collect",
-      A=m({v:"1",ds:"web",aip:c.anonymizeIp?1:void 0,tid:b,cid:l(),t:r||"pageview",
-        sd:c.colorDepth&&screen.colorDepth?screen.colorDepth+"-bits":void 0,dr:e.referrer||
-          void 0,dt:e.title,dl:e.location.origin+e.location.pathname+e.location.search,ul:c.language?
-          (f.language||"").toLowerCase():void 0,de:c.characterSet?e.characterSet:void 0,
-        sr:c.screenSize?(a.screen||{}).width+"x"+(a.screen||{}).height:void 0,vp:c.screenSize&&
-        a.visualViewport?(a.visualViewport||{}).width+"x"+(a.visualViewport||{}).height:void 0,
-        ec:s||void 0,ea:t||void 0,el:u||void 0,ev:v||void 0,exd:w||void 0,exf:"undefined"!=typeof x&&
-        !1==!!x?0:void 0});if(f.sendBeacon)f.sendBeacon(z,A);else{var y=new XMLHttpRequest;
-      y.open("POST",z,!0),y.send(A)}};d.pushState=function(r){return"function"==typeof d.onpushstate&&
-  d.onpushstate({state:r}),setTimeout(n,c.delay||10),i.apply(d,arguments)},n(),
-    a.ma={trackEvent:function o(r,s,t,u){return n("event",r,s,t,u)},
-      trackException:function q(r,s){return n("exception",null,null,null,null,r,s)}}})
-  (window,"UA-133824089-1",{anonymizeIp:true,colorDepth:true,characterSet:true,screenSize:true,language:true});
+  (function (a, b, c) {
+    var d = a.history, e = document, f = navigator || {}, g = localStorage,
+      h = encodeURIComponent, i = d.pushState, k = function () {
+        return Math.random().toString(36)
+      },
+      l = function () {
+        return g.cid || (g.cid = k()), g.cid
+      }, m = function (r) {
+        var s = [];
+        for (var t in r)
+          r.hasOwnProperty(t) && void 0 !== r[t] && s.push(h(t) + "=" + h(r[t]));
+        return s.join("&")
+      },
+      n = function (r, s, t, u, v, w, x) {
+        var z = "https://www.google-analytics.com/collect",
+          A = m({
+            v: "1",
+            ds: "web",
+            aip: c.anonymizeIp ? 1 : void 0,
+            tid: b,
+            cid: l(),
+            t: r || "pageview",
+            sd: c.colorDepth && screen.colorDepth ? screen.colorDepth + "-bits" : void 0,
+            dr: e.referrer ||
+              void 0,
+            dt: e.title,
+            dl: e.location.origin + e.location.pathname + e.location.search,
+            ul: c.language ?
+              (f.language || "").toLowerCase() : void 0,
+            de: c.characterSet ? e.characterSet : void 0,
+            sr: c.screenSize ? (a.screen || {}).width + "x" + (a.screen || {}).height : void 0,
+            vp: c.screenSize &&
+            a.visualViewport ? (a.visualViewport || {}).width + "x" + (a.visualViewport || {}).height : void 0,
+            ec: s || void 0,
+            ea: t || void 0,
+            el: u || void 0,
+            ev: v || void 0,
+            exd: w || void 0,
+            exf: "undefined" != typeof x &&
+            !1 == !!x ? 0 : void 0
+          });
+        if (f.sendBeacon) f.sendBeacon(z, A); else {
+          var y = new XMLHttpRequest;
+          y.open("POST", z, !0), y.send(A)
+        }
+      };
+    d.pushState = function (r) {
+      return "function" == typeof d.onpushstate &&
+      d.onpushstate({state: r}), setTimeout(n, c.delay || 10), i.apply(d, arguments)
+    }, n(),
+      a.ma = {
+        trackEvent: function o(r, s, t, u) {
+          return n("event", r, s, t, u)
+        },
+        trackException: function q(r, s) {
+          return n("exception", null, null, null, null, r, s)
+        }
+      }
+  })
+  (window, "UA-133824089-1", {
+    anonymizeIp: true,
+    colorDepth: true,
+    characterSet: true,
+    screenSize: true,
+    language: true
+  });
 </script>
 </body>
 </html>

@@ -60,6 +60,7 @@ a {
 
   color: #DD3F22;
   font-size: 1rem;
+  outline: 0;
   text-decoration: none;
   transition: color .2s ease;
 }
@@ -113,8 +114,4 @@ a > svg {
     opacity: 0;
     transform: scale(1.6);
   }
-}
-
-@media all and (min-width: 600px){
-
 }
