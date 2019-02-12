@@ -18,6 +18,10 @@ body {
   padding: 0;
 }
 
+section, nav, header, footer {
+  overflow-x: hidden;
+}
+
 p {
   font-size: 1rem;
 }
