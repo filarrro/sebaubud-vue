@@ -11,24 +11,24 @@
   display: flex;
   max-width: 600px;
   margin: 5rem auto;
-  height: 300px;
+  height: 260px;
 
   border-radius: 6px;
-  box-shadow: 0 3px 3px -2px rgba(0,0,0,.2), 0 2px 6px 0 rgba(0,0,0,.14), 0 1px 15px 0 rgba(0,0,0,.12);
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, .2), 0 2px 6px 0 rgba(0, 0, 0, .14), 0 1px 15px 0 rgba(0, 0, 0, .12);
   overflow: hidden;
 }
 
 .referrals__left {
   position: relative;
   height: 100%;
-  min-width: 100px;
+  min-width: 50px;
 
   background-color: #344A65;
 }
 
 .referrals__right {
   flex: 1 1 auto;
-  padding: 30px 20px 30px 60px;
+  padding: 25px 15px 25px 40px;
 
   background-color: #f2f2f2;
 }
@@ -36,11 +36,11 @@
 .referrals__icon {
   position: absolute;
   top: 50%;
-  right: -40px;
+  right: -30px;
 
   display: inline-flex;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
 
   justify-content: center;
   align-items: center;
@@ -54,28 +54,67 @@
 
 .referrals__caption {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .referrals__title {
   margin: 1.4rem 0;
   color: #344A65;
-  font-size: 2.4rem;
+  font-size: 1.9rem;
 }
 
 .referrals__text {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-style: italic;
   font-weight: 300;
 }
 
 .referrals__footer {
   position: absolute;
-  right: 25px;
-  bottom: 18px;
+  right: 20px;
+  bottom: 15px;
 
   color: #344A65;
   font-size: 1.6rem;
   font-weight: 700;
+}
+
+@media screen and (min-width: 940px) {
+  .referrals__card {
+    height: 300px;
+  }
+
+  .referrals__left {
+    min-width: 100px;
+  }
+
+  .referrals__right {
+    padding: 30px 20px 30px 60px;
+  }
+
+  .referrals__icon {
+    right: -40px;
+
+    height: 80px;
+    width: 80px;
+  }
+
+
+  .referrals__caption {
+    font-size: 1.6rem;
+  }
+
+  .referrals__title {
+    font-size: 2.4rem;
+  }
+
+  .referrals__text {
+    font-size: 2rem;
+  }
+
+  .referrals__footer {
+    right: 25px;
+    bottom: 18px;
+  }
 }

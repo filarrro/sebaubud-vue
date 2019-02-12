@@ -2,19 +2,27 @@
   margin: 4rem 2rem 6rem;
 }
 
-.about__content {
-  display: flex;
-
-  align-items: center;
-}
-
 .about__image {
+  display: block;
   min-width: 250px;
-  margin-right: 3rem;
+  margin: 0 auto;
 
   border-radius: 65% 35% 71% 29% / 29% 62% 38% 71%;
 }
 
 .about__text p {
   font-size: 1.8rem;
+}
+
+@media screen and (min-width: 940px){
+  .about__content {
+    display: flex;
+
+    align-items: center;
+  }
+
+  .about__image {
+    margin-left: 0;
+    margin-right: 3rem;
+  }
 }

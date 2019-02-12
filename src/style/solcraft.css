@@ -18,15 +18,13 @@
 }
 
 .solcraft__columns {
-  display: flex;
   margin: 2rem 0;
-  align-items: center;
 }
 
-
 .solcraft__columns > img {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  display: block;
+
+  margin: 3rem auto;
   min-width: 260px;
 
   border-radius: 65% 35% 71% 29% / 29% 62% 38% 71%;
@@ -34,4 +32,17 @@
 
 .solcraft__columns > p {
   font-size: 1.6rem;
+}
+
+
+@media screen and (min-width: 940px) {
+  .solcraft__columns {
+    display: flex;
+    align-items: center;
+  }
+
+  .solcraft__columns > img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
