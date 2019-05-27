@@ -23,7 +23,10 @@
   <!-- Apple Touch Icon (reuse 192px icon.png) -->
   <link rel="apple-touch-icon" href="./assets/icon.png">
 
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/aos.css">
   <link rel="stylesheet" href="style/basic.css">
@@ -40,15 +43,23 @@
 <body>
 <nav class="nav">
   <div class="nav__links">
-    <a href="https://www.facebook.com/sebaybud/" target="_blank" referrerpolicy="no-referrer">
-      <img src="./assets/fb.png" srcset="./assets/fb.png 1x, ./assets/fb_2x.png 2x" alt="Fanpage na facebook'u" height="30" width="30">
+    <a href="https://www.facebook.com/sebaybud/" target="_blank" rel="noreferrer" referrerpolicy="no-referrer">
+      <img src="./assets/fb.png"
+           srcset="./assets/fb.png 1x, ./assets/fb_2x.png 2x"
+           alt="odwiedź nasz fanpage na facebook'u"
+           height="30"
+           width="30">
     </a>
+
     <a href="mailto:sebaybud@gmail.com">
       <svg xmlns="http://www.w3.org/2000/svg" fill="#222" width="30" height="30" viewBox="0 0 24 24">
         <path
             d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
         <path d="M0 0h24v24H0z" fill="none"></path>
       </svg>
+      <span class="sr-only">
+        wyślij email do sebaybud@gmail.com
+      </span>
     </a>
 
     <a href="tel:+48886638968">
@@ -57,6 +68,9 @@
         <path
             d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"></path>
       </svg>
+      <span class="sr-only">
+        zadzwoń do nas
+      </span>
     </a>
   </div>
 
@@ -102,7 +116,7 @@
 
 <section class="about">
   <div class="container about__content">
-    <img src="./assets/about.jpg" srcset="./assets/about.jpg 1x, ./assets/about_2x.jpg 2x" alt="" height="250"
+    <img src="./assets/about.jpg" srcset="./assets/about.jpg 1x, ./assets/about_2x.jpg 2x" alt="" loading=lazy height="250"
          width="250" class="about__image" data-aos="fade-up" data-aos-delay="150" data-aos-once="true">
 
     <div class="about__text" data-aos="fade-up" data-aos-once="true">
@@ -264,7 +278,7 @@
     </div>
 
     <div class="solcraft__columns">
-      <img src="./assets/solcraft-hblock.jpg" alt="technologia h-block" height="260" width="260" data-aos="fade-up" data-aos-delay="150" data-aos-once="true"/>
+      <img src="./assets/solcraft-hblock.jpg" alt="technologia h-block" loading=lazy height="260" width="260" data-aos="fade-up" data-aos-delay="150" data-aos-once="true"/>
 
       <p data-aos="fade-up" data-aos-once="true">
         H-Block<sup>&reg;</sup> jest izolacyjną płytą konstrukcyjną do budowy ścian nośnych, stropów, podłóg oraz dachów
@@ -292,7 +306,7 @@
         ścian lub/i dachów zimą. Dzięki temu możliwe jest m.in. pobieranie energii od słońca w celu uzyskania
         ciepłej wody użytkowej latem lub samo-odśnieżanie dachu zimą, dzięki współpracy z wymiennikiem gruntowym.
       </p>
-      <img src="./assets/solcraft-thexpan.jpg" alt="technologia thexpan" height="260" width="260" data-aos="fade-up" data-aos-delay="150" data-aos-once="true"/>
+      <img src="./assets/solcraft-thexpan.jpg" alt="technologia thexpan" loading=lazy height="260" width="260" data-aos="fade-up" data-aos-delay="150" data-aos-once="true"/>
     </div>
   </div>
 </section>
@@ -302,22 +316,22 @@
     <h2 class="gallery__title" data-aos="fade-up" data-aos-once="true">Przykładowe realizacje</h2>
 
     <ul class="gallery__list">
-      <li class="gallery__img"><img src="./assets/gallery/1.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/2.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/3.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/4.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/5.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/6.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/7.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/8.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/9.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/10.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/11.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
-      <li class="gallery__img"><img src="./assets/gallery/12.jpg" alt="" data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/1.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/2.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/3.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/4.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/5.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/6.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/7.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/8.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/9.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/10.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/11.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
+      <li class="gallery__img"><img src="./assets/gallery/12.jpg" alt="" loading=lazy data-aos="zoom-in-up" data-aos-once="true"></li>
     </ul>
 
     <p class="gallery__caption" data-aos="fade-up" data-aos-once="true">
-      Więcej zdjęć znajdziecie na naszym <a href="https://www.facebook.com/sebaybud/" target="_blank" referrerpolicy="no-referrer">facebooku</a>.
+      Więcej zdjęć znajdziecie na naszym <a href="https://www.facebook.com/sebaybud/" target="_blank" rel="noreferrer" referrerpolicy="no-referrer">facebooku</a>.
     </p>
   </div>
 </section>
@@ -325,7 +339,7 @@
 <footer class="contact">
   <div class="container contact__container">
     <div class="contact__logo" data-aos="fade-up" data-aos-once="true">
-      <img src="./assets/logo_big.png" alt="Logo firmy Sebaybud" height="150" width="120"/>
+      <img src="./assets/logo_big.png" alt="Logo firmy Sebaybud" loading=lazy height="150" width="120"/>
     </div>
 
     <div data-aos="fade-up" data-aos-once="true">

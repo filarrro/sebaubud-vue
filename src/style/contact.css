@@ -19,18 +19,19 @@
 }
 
 .contact__firm {
-  margin: 0 0 2rem;
-  font-size: 2rem;
+  margin: 0 0 1.4rem;
+  font-size: 2.5rem;
 }
 
 .contact__row {
   display: flex;
-  margin: .6rem 0;
+  padding: 1rem 0;
+  margin: 0;
 
   align-items: center;
 
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
