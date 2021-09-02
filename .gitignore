@@ -4,4 +4,8 @@
 /.idea
 .idea
 
+.cache
 /dist
+/public
+.parcel-cache/
+yarn-error.log

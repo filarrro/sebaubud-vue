@@ -17,6 +17,7 @@
 .gallery__img {
   width: 100%;
   min-width: 100%;
+  min-height: 200px;
 
   clip-path: polygon(3% 13%, 97% 3%, 87% 98%, 14% 95%);
 }
